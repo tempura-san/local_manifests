@@ -42,8 +42,11 @@
          <project path="external/libxml2" name="timduru/platform-external-libxml2"  revision="aosp_katkiss-7.1" remote="github" />
   <remove-project name="platform/external/neven" />
          <project path="external/neven" name="timduru/platform-external-neven"  revision="aosp_katkiss-7.1" remote="github" />
+<!-- no repository by that name -->
+<!--
   <remove-project name="platform/external/libnfc-nci" />
          <project path="external/libnfc-nci" name="timduru/platform-external-libnfc-nci"  revision="aosp_katkiss-7.1" remote="github" />
+-->
   <remove-project name="platform/external/sqlite" />
          <project path="external/sqlite" name="timduru/external_sqlite" remote="github" revision="katkiss-7.1" />
   <remove-project name="platform/external/skia" />
@@ -64,13 +67,13 @@
   <remove-project name="platform/frameworks/ex" />
          <project path="frameworks/ex" name="timduru/platform-frameworks-ex" revision="katkiss-7.1" remote="github"/>   
   <remove-project name="platform/frameworks/minikin" />
-         <project path="frameworks/minikin" name="timduru/platform-frameworks-minikin" revision="katkiss-7.1" remote="github"/>
+         <project path="frameworks/minikin" name="timduru/platform-frameworks-minikin" revision="aosp_katkiss-7.1" remote="github"/>
   <remove-project name="platform/frameworks/native" />
          <project path="frameworks/native" name="timduru/platform-frameworks-native" revision="katkiss-7.1" remote="github"/>
   <remove-project name="platform/frameworks/opt/net/wifi" />
          <project path="frameworks/opt/net/wifi" name="timduru/platform-frameworks-opt-net-wifi" revision="katkiss-7.1" remote="github" />
   <remove-project name="platform/frameworks/opt/telephony" />
-         <project path="frameworks/opt/telephony" name="timduru/platform-frameworks-opt-telephony" revision="aosp_katkiss-7.1" remote="github" />
+         <project path="frameworks/opt/telephony" name="timduru/platform-frameworks-opt-telephony" revision="aosp-katkiss-7.1" remote="github" />
   <remove-project name="platform/frameworks/wilhelm" />
          <project path="frameworks/wilhelm" name="timduru/platform-frameworks-wilhelm" revision="katkiss-7.1" remote="github"/>   
   <remove-project name="platform/hardware/broadcom/wlan" />
@@ -78,8 +81,11 @@
   <remove-project name="platform/libcore" />
          <project path="platform/libcore" name="timduru/platform-libcore"  revision="aosp_katkiss-7.1" remote="github"/>
          <project path="packages/apps/Browser" name="timduru/platform-packages-apps-browser"  revision="katkiss-7.0" remote="github"/>
+<!-- no 7.1 branch available -->
+<!--
   <remove-project name="platform/packages/apps/Contacts" /> 
          <project path="packages/apps/Contacts" name="timduru/platform-packages-apps-Contacts"  revision="aosp_katkiss-7.1" remote="github" />  
+-->
   <remove-project name="platform/packages/apps/DeskClock" /> 
          <project path="packages/apps/DeskClock" name="timduru/platform-packages-apps-DeskClock"  revision="katkiss-7.1" remote="github" />  
   <remove-project name="platform/packages/apps/Email" />
@@ -90,14 +96,17 @@
          <project path="packages/apps/Gallery2" name="timduru/platform-packages-apps-Gallery2"  revision="katkiss-7.1" remote="github" />
   <remove-project name="platform/packages/apps/Launcher3" />
          <project path="packages/apps/Launcher3" name="timduru/platform-packages-apps-launcher3"  revision="katkiss-7.1" remote="github" />
+<!-- empty repository -->
+<!--
   <remove-project name="platform/packages/apps/Messaging" />
          <project path="packages/apps/Messaging" name="timduru/platform-packages-apps-Messaging"  revision="aosp-katkiss-7.1" remote="github" />
+-->
   <remove-project name="platform/packages/apps/Music" />
          <project path="packages/apps/Music" name="timduru/platform-packages-apps-Music"  revision="aosp-katkiss-7.0_fix" remote="github" />
   <remove-project name="platform/packages/apps/Nfc" />
-         <project path="packages/apps/Nfc" name="timduru/platform-packages-apps-Nfc"  revision="aosp-katkiss-7.1" remote="github" />
+         <project path="packages/apps/Nfc" name="timduru/platform-packages-apps-Nfc"  revision="aosp_katkiss-7.1" remote="github" />
   <remove-project name="platform/packages/apps/PackageInstaller" />
-         <project path="packages/apps/PackageInstaller" name="timduru/platform-packages-apps-PackageInstaller"  revision="aosp-katkiss-7.1" remote="github" />
+         <project path="packages/apps/PackageInstaller" name="timduru/platform-packages-apps-PackageInstaller"  revision="aosp_katkiss-7.1" remote="github" />
   <remove-project name="platform/packages/apps/Settings" />
          <project path="packages/apps/Settings" name="timduru/platform-packages-apps-Settings"  revision="katkiss-7.1" remote="github" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
@@ -115,7 +124,7 @@
   <remove-project name="platform/system/media" />
          <project path="system/media" name="timduru/platform-system-media"  revision="katkiss-7.1" remote="github"/>
   <remove-project name="platform/system/netd" />
-         <project path="system/netd" name="timduru/platform-system-netd"  revision="aosp_katkiss-7.1" remote="github"/>   
+         <project path="system/netd" name="timduru/platform-system-netd"  revision="aosp-katkiss-7.1" remote="github"/>
   <remove-project name="platform/system/vold" />
          <project path="system/vold" name="timduru/platform-system-vold"  revision="katkiss-7.1" remote="github"/>
 
@@ -145,8 +154,8 @@
 
 <!-- TF -->
 
-  <project path="device/asus/tf300t" name="timduru/device_asus_tf300t" revision="katkiss-7.1" remote="github"/>
-  <project path="device/asus/tf701t" name="timduru/device_asus_tf701t" revision="katkiss-7.1" remote="github"/>
+  <project path="device/asus/tf300t" name="timduru/android_device_asus_tf300t" revision="katkiss-7.1" remote="github"/>
+  <project path="device/asus/tf701t" name="timduru/android_device_asus_tf701t" revision="katkiss-7.1" remote="github"/>
 <!--  <project path="kernel/asus/tf300t" name="timduru/tf300t-katkernel" revision="dev-tf300t" remote="github"/>
   <project path="kernel/asus/tf700t" name="timduru/tf300t-katkernel" revision="dev-tf700t" remote="github"/>
 -->
